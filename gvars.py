@@ -9,7 +9,11 @@ from datetime import datetime
 
 MAX_WORKERS = 5 # max threads at a time
 
+<<<<<<< HEAD
 gainRatio = 1.8 # takeProfit = -stopLoss*gainRatio
+=======
+gainRatio = 1.7 # takeProfit = -stopLoss*gainRatio
+>>>>>>> d082a4a1325d6273cb3b31e1bf9c6f534b8b030b
 stopLossMargin = 0.05 # extra margin for the stop loss
 
 operEquity = 10000 # defines the target amount per execution ($)
